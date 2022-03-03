@@ -1,0 +1,58 @@
+main{
+    display: flex;
+    justify-content: center;
+    background-color: #1c1c1c;
+    position: relative;
+}
+
+.container-main{
+    width: 70%;
+    color: white;
+
+    .products{
+        margin-top: 40px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+
+        .card{
+            width: 15%;
+            margin: 10px;
+
+            .img-card{
+                height: 200px;
+                overflow: hidden;
+            }
+
+            .name{
+                margin-top: 10px;
+            }
+        }
+    }
+}
+
+.current{
+    text-transform: uppercase;
+    font-size: 18px;
+    position: absolute;
+    top: -20px;
+    text-align: center;
+    width: 190px;
+    background-color: #0282f9;
+    padding: 10px;
+}
+
+.position-load{
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.load{    
+    text-transform: uppercase;
+    font-size: 18px;    
+    text-align: center;
+    width: 150px;
+    background-color: #0282f9;
+    padding: 10px;
+}
