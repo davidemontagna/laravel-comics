@@ -1,0 +1,38 @@
+.container-merch{
+    background-color: #0282f9;
+    margin: 0 auto;
+    width: 100%;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.merch{
+  width: 90%;
+  display: flex;
+  justify-content: space-around;
+
+  div{
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    a{
+      margin-left: 10px;
+      text-decoration: none;
+      text-transform: uppercase;
+      color: #fff;
+      font-size: 15px;
+
+        &:hover{
+            text-decoration: underline;
+        }
+
+        
+    }
+    img{
+        height: 40px;  
+    }
+  }  
+}
