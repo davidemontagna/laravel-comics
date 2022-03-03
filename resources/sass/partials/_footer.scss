@@ -1,3 +1,8 @@
+footer{
+    position: relative;
+    height: 600px;
+}
+
 .container-merch{
     background-color: #0282f9;
     margin: 0 auto;
@@ -35,4 +40,78 @@
         height: 40px;  
     }
   }  
+}
+
+.foot-mid{
+    
+    overflow: hidden;
+    height: 400px;    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    .foot-links{
+        display: flex;
+        justify-content: space-between;
+        width: 35%;
+        margin-left: 45px;
+        
+        .dc-comics, .dc-shop, .dc, .sites{
+            display: flex;
+            flex-direction: column;            
+            font-weight: bold;
+            font-size: 18px;
+            margin-top: 5px;
+            
+            
+            a{
+                text-decoration: none;
+                margin: 3px 0;
+                color: grey;
+                font-weight: lighter;
+                font-size: 13px;
+                &:hover{
+                    text-decoration: underline;
+                }
+            }
+            
+        }
+    }
+}
+
+.rt-reserved{
+    position: absolute;
+    left: 200px;
+    bottom: 125px;
+    color: grey;
+    font-size: 13px;
+    display: flex;
+    justify-content: start;
+    align-self: end;
+    width: 33%;
+    
+}
+
+.foot-bottom{
+    padding: 0 200px;
+    height: 100px;
+    background-color: #303030;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .socials{
+        width: 25%;
+        font-weight: bold;
+        color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .sign-up{
+        color: #fff;
+        padding: 10px;
+        width: 140px;
+        text-transform: uppercase;
+        border: 2px solid #0282f9;
+    }
 }

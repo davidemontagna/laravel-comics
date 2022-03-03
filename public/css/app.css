@@ -81,6 +81,7 @@ header {
 }
 
 .jumbotron {
+  width: 100%;
   height: 430px;
   -o-object-fit: cover;
      object-fit: cover;
@@ -146,6 +147,11 @@ main {
   padding: 10px;
 }
 
+footer {
+  position: relative;
+  height: 600px;
+}
+
 .container-merch {
   background-color: #0282f9;
   margin: 0 auto;
@@ -182,5 +188,87 @@ main {
 
 .merch div img {
   height: 40px;
+}
+
+.foot-mid {
+  overflow: hidden;
+  height: 400px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.foot-mid .foot-links {
+  display: flex;
+  justify-content: space-between;
+  width: 35%;
+  margin-left: 45px;
+}
+
+.foot-mid .foot-links .dc-comics,
+.foot-mid .foot-links .dc-shop,
+.foot-mid .foot-links .dc,
+.foot-mid .foot-links .sites {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 5px;
+}
+
+.foot-mid .foot-links .dc-comics a,
+.foot-mid .foot-links .dc-shop a,
+.foot-mid .foot-links .dc a,
+.foot-mid .foot-links .sites a {
+  text-decoration: none;
+  margin: 3px 0;
+  color: grey;
+  font-weight: lighter;
+  font-size: 13px;
+}
+
+.foot-mid .foot-links .dc-comics a:hover,
+.foot-mid .foot-links .dc-shop a:hover,
+.foot-mid .foot-links .dc a:hover,
+.foot-mid .foot-links .sites a:hover {
+  text-decoration: underline;
+}
+
+.rt-reserved {
+  position: absolute;
+  left: 200px;
+  bottom: 125px;
+  color: grey;
+  font-size: 13px;
+  display: flex;
+  justify-content: start;
+  align-self: end;
+  width: 33%;
+}
+
+.foot-bottom {
+  padding: 0 200px;
+  height: 100px;
+  background-color: #303030;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.foot-bottom .socials {
+  width: 25%;
+  font-weight: bold;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.foot-bottom .sign-up {
+  color: #fff;
+  padding: 10px;
+  width: 140px;
+  text-transform: uppercase;
+  border: 2px solid #0282f9;
 }
 
