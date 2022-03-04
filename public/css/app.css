@@ -1,6 +1,4 @@
-@import url(https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Montserrat:wght@100&family=Roboto:wght@400;
-
-700&display=swap);* {
+@import url(https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Montserrat:wght@100&family=Roboto:wght@400;700&display=swap);* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -26,14 +24,12 @@ header {
   display: flex;
   justify-content: end;
 }
-
 .additional-sites div {
   margin-right: 50px;
   width: 20%;
   display: flex;
   justify-content: space-between;
 }
-
 .additional-sites div a {
   text-decoration: none;
   color: white;
@@ -45,7 +41,6 @@ header {
   justify-content: space-between;
   align-items: center;
 }
-
 .nav_container nav {
   width: 70%;
 }
@@ -55,7 +50,6 @@ header {
   justify-content: space-evenly;
   list-style: none;
 }
-
 .nav-bar li {
   text-align: center;
   width: 115px;
@@ -65,12 +59,10 @@ header {
   height: 100%;
   line-height: 125px;
 }
-
 .nav-bar li:hover {
   border-bottom: 5px solid #0282f9;
   color: #0282f9;
 }
-
 .nav-bar li a {
   text-decoration: none;
   color: #000;
@@ -87,7 +79,6 @@ header {
      object-fit: cover;
   overflow: hidden;
 }
-
 main {
   display: flex;
   justify-content: center;
@@ -99,24 +90,20 @@ main {
   width: 70%;
   color: white;
 }
-
 .container-main .products {
   margin-top: 40px;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
 }
-
 .container-main .products .card {
   width: 15%;
   margin: 10px;
 }
-
 .container-main .products .card .img-card {
   height: 200px;
   overflow: hidden;
 }
-
 .container-main .products .card .name {
   margin-top: 10px;
 }
@@ -166,14 +153,12 @@ footer {
   display: flex;
   justify-content: space-around;
 }
-
 .merch div {
   width: 15%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
 .merch div a {
   margin-left: 10px;
   text-decoration: none;
@@ -181,56 +166,42 @@ footer {
   color: #fff;
   font-size: 15px;
 }
-
 .merch div a:hover {
   text-decoration: underline;
 }
-
 .merch div img {
   height: 40px;
 }
 
 .foot-mid {
+  background-image: url(../images/footer-bg.jpg);
   overflow: hidden;
   height: 400px;
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
-
 .foot-mid .foot-links {
   display: flex;
   justify-content: space-between;
   width: 35%;
   margin-left: 45px;
 }
-
-.foot-mid .foot-links .dc-comics,
-.foot-mid .foot-links .dc-shop,
-.foot-mid .foot-links .dc,
-.foot-mid .foot-links .sites {
+.foot-mid .foot-links .dc-comics, .foot-mid .foot-links .dc-shop, .foot-mid .foot-links .dc, .foot-mid .foot-links .sites {
   display: flex;
   flex-direction: column;
   font-weight: bold;
   font-size: 18px;
   margin-top: 5px;
 }
-
-.foot-mid .foot-links .dc-comics a,
-.foot-mid .foot-links .dc-shop a,
-.foot-mid .foot-links .dc a,
-.foot-mid .foot-links .sites a {
+.foot-mid .foot-links .dc-comics a, .foot-mid .foot-links .dc-shop a, .foot-mid .foot-links .dc a, .foot-mid .foot-links .sites a {
   text-decoration: none;
   margin: 3px 0;
   color: grey;
   font-weight: lighter;
   font-size: 13px;
 }
-
-.foot-mid .foot-links .dc-comics a:hover,
-.foot-mid .foot-links .dc-shop a:hover,
-.foot-mid .foot-links .dc a:hover,
-.foot-mid .foot-links .sites a:hover {
+.foot-mid .foot-links .dc-comics a:hover, .foot-mid .foot-links .dc-shop a:hover, .foot-mid .foot-links .dc a:hover, .foot-mid .foot-links .sites a:hover {
   text-decoration: underline;
 }
 
@@ -254,7 +225,6 @@ footer {
   justify-content: space-between;
   align-items: center;
 }
-
 .foot-bottom .socials {
   width: 25%;
   font-weight: bold;
@@ -263,7 +233,6 @@ footer {
   align-items: center;
   justify-content: space-between;
 }
-
 .foot-bottom .sign-up {
   color: #fff;
   padding: 10px;
@@ -271,4 +240,3 @@ footer {
   text-transform: uppercase;
   border: 2px solid #0282f9;
 }
-
